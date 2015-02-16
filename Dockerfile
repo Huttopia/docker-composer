@@ -1,6 +1,10 @@
 FROM cedvan/ubuntu:14.04.20150206
 MAINTAINER Cédric Vanet <dev@cedvan.com>
 
+# Install git
+RUN apt-get update -qq \
+    && apt-get install -qqy git
+
 # install HHVM
 RUN wget -O - http://dl.hhvm.com/conf/hhvm.gpg.key | apt-key add -
 RUN echo deb http://dl.hhvm.com/ubuntu trusty main | tee /etc/apt/sources.list.d/hhvm.list
