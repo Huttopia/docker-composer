@@ -7,9 +7,3 @@ Image composer using hhvm
 ```bash
 docker run --rm -it -v /path/to/project:/src cedvan/composer:latest cmd
 ```
-
-### Manage
-
-```bash
-make help
-```
