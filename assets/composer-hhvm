@@ -1,0 +1,9 @@
+#!/bin/bash
+
+hhvm /usr/local/bin/composer $*
+
+# Update permissions to current user host
+if [ -d /src/vendor ]
+then
+    chown -Rf 1000:1000 /src/vendor
+fi

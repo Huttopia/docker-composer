@@ -1,0 +1,5 @@
+vendor/*
+var/*
+bin/*
+tests/*
+!tests/composer.json

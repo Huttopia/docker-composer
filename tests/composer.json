@@ -1,0 +1,9 @@
+{
+    "name": "docker.cedvan.com/composer",
+    "license": "proprietary",
+    "type": "project",
+    "description": "Test Docker Composer",
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
