@@ -1,4 +1,4 @@
-FROM cedvan/ubuntu:14.04.20150206
+FROM cedvan/ubuntu:14.04.20150526
 MAINTAINER Cédric Vanet <dev@cedvan.com>
 
 # Install git
