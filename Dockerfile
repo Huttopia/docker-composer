@@ -1,5 +1,6 @@
 FROM cedvan/ubuntu:14.04.20150428
 MAINTAINER Cédric Vanet <dev@cedvan.com>
+MAINTAINER Maxime Sifflet <maxime.sifflet@huttopia.com>
 
 # Install git
 RUN apt-get update -qq \
